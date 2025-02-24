@@ -20,7 +20,7 @@ Le modèle baseline, basé sur **une régression logistique avec TF-IDF**, offre
 - Les modèles TF-IDF ne capturent pas les relations sémantiques entre les mots.
 
 ## Pourquoi passer au deep learning ?
-Pour pallier ces limites, nous allons introduire une approche par embeddings et réseaux de neurones :
+Pour pallier ces limites, nous allons introduire **une approche par embeddings et réseaux de neurones** :
 
 Utilisation des embeddings (Word2Vec, FastText, ou Embeddings Keras)
 Contrairement au TF-IDF, ces méthodes apprennent des représentations sémantiques des mots, capturant leurs relations et synonymes.
