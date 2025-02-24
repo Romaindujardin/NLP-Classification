@@ -22,11 +22,14 @@ Le modèle baseline, basé sur **une régression logistique avec TF-IDF**, offre
 ## Pourquoi passer au deep learning ?
 Pour pallier ces limites, nous allons introduire **une approche par embeddings et réseaux de neurones** :
 
-Utilisation des embeddings (Word2Vec, FastText, ou Embeddings Keras)
+1. Utilisation des embeddings (Word2Vec, FastText, ou Embeddings Keras)
 Contrairement au TF-IDF, ces méthodes apprennent des représentations sémantiques des mots, capturant leurs relations et synonymes.
-Test d’un MLP (Multilayer Perceptron)
+
+2. Test d’un MLP (Multilayer Perceptron)
 Cette architecture permettra de voir si les embeddings seuls suffisent à améliorer la classification sans ajouter la complexité des réseaux récurrents.
-Utilisation d’un RNN (LSTM/GRU)
+
+3. Utilisation d’un RNN (LSTM/GRU)
 Permettra de capturer le contexte et l’ordre des mots pour une meilleure compréhension des phrases complexes.
-💡 Objectif du deuxième modèle :
-Améliorer la classification des commentaires toxiques en capturant le sens réel des phrases, le contexte des mots, et en gérant mieux les classes rares. 🚀
+Objectif du deuxième modèle :
+
+### Améliorer la classification des commentaires toxiques en capturant le sens réel des phrases, le contexte des mots, et en gérant mieux les classes rares.
