@@ -1,6 +1,6 @@
 ## Limites du modèle baseline et nécessité d’un modèle plus avancé
 
-Le modèle baseline, basé sur une régression logistique avec TF-IDF, offre une première approche efficace mais présente plusieurs limitations majeures :
+Le modèle baseline, basé sur ** une régression logistique avec TF-IDF **, offre une première approche efficace mais présente plusieurs limitations majeures :
 
 ### 1. Perte d’information contextuelle
 
