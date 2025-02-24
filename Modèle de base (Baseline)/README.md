@@ -30,6 +30,6 @@ Cette architecture permettra de voir si les embeddings seuls suffisent à améli
 
 3. Utilisation d’un RNN (LSTM/GRU)
 Permettra de capturer le contexte et l’ordre des mots pour une meilleure compréhension des phrases complexes.
-Objectif du deuxième modèle :
 
-### Améliorer la classification des commentaires toxiques en capturant le sens réel des phrases, le contexte des mots, et en gérant mieux les classes rares.
+### Objectif du deuxième modèle :
+Améliorer la classification des commentaires toxiques en capturant le sens réel des phrases, le contexte des mots, et en gérant mieux les classes rares.
