@@ -5,11 +5,12 @@ Après avoir développé un modèle de base reposant sur une vectorisation TF-ID
 - **Perte d'information contextuelle** : Le TF-IDF ne tient pas compte de l'ordre des mots ni des relations sémantiques, ce qui limite la compréhension des nuances dans les phrases.
 - **Difficulté avec les formulations subtiles** : Le modèle ne parvient pas à distinguer des expressions comme "ce n'est pas une insulte" et "c'est une insulte", qui sont traitées de manière similaire.
 - **Détection limitée des classes rares** : Les classes sous-représentées (ex. : severe_toxic, threat, identity_hate) sont difficilement apprises et prédictes.
+
 Pour pallier ces limites, nous avons implémenté une approche deep learning qui se décline en deux volets :
 
 1. **Modèles Deep Learning avec Embeddings** :
-MLP avec Embeddings seuls : Grâce à une couche d'embedding et un GlobalAveragePooling, nous obtenons des représentations denses qui capturent mieux les similarités sémantiques entre les mots.
-Réseau de neurones récurrent (LSTM) : En intégrant des couches LSTM, nous sommes en mesure de saisir le contexte et l'ordre des mots, offrant ainsi une meilleure compréhension des phrases complexes.
+- **MLP avec Embeddings seuls** : Grâce à une couche d'embedding et un GlobalAveragePooling, nous obtenons des représentations denses qui capturent mieux les similarités sémantiques entre les mots.
+- **Réseau de neurones récurrent (LSTM)** : En intégrant des couches LSTM, nous sommes en mesure de saisir le contexte et l'ordre des mots, offrant ainsi une meilleure compréhension des phrases complexes.
 Ces modèles améliorent légèrement la détection des classes majoritaires grâce à une meilleure représentation sémantique, mais ils rencontrent encore des difficultés pour identifier les classes rares.
 
 2. **Perspectives d'un Pipeline Complet** :
