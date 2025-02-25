@@ -20,4 +20,5 @@ Pour aller encore plus loin, nous prévoyons de mettre en place un pipeline comp
 - **Nettoyage avancé des commentaires** : Suppression des stopwords, lemmatisation, gestion des caractères spéciaux, etc.
 - **Tokenisation et Encodage optimisés** : Pour générer des séquences de mots de qualité adaptées aux modèles de deep learning.
 - **Modèle Final pour la Classification** : En exploitant ces données prétraitées, nous pourrons concevoir un modèle de classification plus robuste, capable de mieux gérer les classes rares et d'exploiter pleinement le contexte et la sémantique des commentaires.
+
 En résumé, l'approche deep learning apporte une amélioration par rapport au modèle baseline en capturant des informations contextuelles et sémantiques essentielles. Néanmoins, pour atteindre une performance optimale sur toutes les classes, notamment les plus rares, l'intégration d'un pipeline complet de prétraitement et d'optimisation reste indispensable.
