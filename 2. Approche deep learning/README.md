@@ -15,6 +15,7 @@ Pour pallier ces limites, nous avons implémenté une approche deep learning qui
 Ces modèles améliorent légèrement la détection des classes majoritaires grâce à une meilleure représentation sémantique, mais ils rencontrent encore des difficultés pour identifier les classes rares.
 
 2. **Perspectives d'un Pipeline Complet** :
+
 Pour aller encore plus loin, nous prévoyons de mettre en place un pipeline complet qui inclura :
 - **Nettoyage avancé des commentaires** : Suppression des stopwords, lemmatisation, gestion des caractères spéciaux, etc.
 - **Tokenisation et Encodage optimisés** : Pour générer des séquences de mots de qualité adaptées aux modèles de deep learning.
