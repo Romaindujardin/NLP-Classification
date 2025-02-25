@@ -11,6 +11,7 @@ Pour pallier ces limites, nous avons implémenté une approche deep learning qui
 1. **Modèles Deep Learning avec Embeddings** :
 - **MLP avec Embeddings seuls** : Grâce à une couche d'embedding et un GlobalAveragePooling, nous obtenons des représentations denses qui capturent mieux les similarités sémantiques entre les mots.
 - **Réseau de neurones récurrent (LSTM)** : En intégrant des couches LSTM, nous sommes en mesure de saisir le contexte et l'ordre des mots, offrant ainsi une meilleure compréhension des phrases complexes.
+
 Ces modèles améliorent légèrement la détection des classes majoritaires grâce à une meilleure représentation sémantique, mais ils rencontrent encore des difficultés pour identifier les classes rares.
 
 2. **Perspectives d'un Pipeline Complet** :
