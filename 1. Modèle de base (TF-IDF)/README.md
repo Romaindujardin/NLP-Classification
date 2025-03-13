@@ -1,3 +1,5 @@
+# Modèle de base (TF-IDF)
+
 ## 1. Introduction
 
 Dans le cadre de notre projet de classification de commentaires toxiques, nous avons développé plusieurs modèles afin de mesurer l'évolution des approches utilisées. Ce document décrit le **Modèle Baseline** (Modèle 1), ses mécanismes de fonctionnement et ses limitations, justifiant ainsi la transition vers une approche plus avancée (Modèle 2).
