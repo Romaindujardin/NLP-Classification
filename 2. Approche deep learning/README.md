@@ -17,8 +17,8 @@ Ces modèles améliorent légèrement la détection des classes majoritaires gr�
 2. **Perspectives d'un Pipeline Complet** :
 
 Pour aller encore plus loin, nous prévoyons de mettre en place un pipeline complet qui inclura :
-- **Nettoyage avancé des commentaires** : Suppression des stopwords, lemmatisation, gestion des caractères spéciaux, etc.
-- **Tokenisation et Encodage optimisés** : Pour générer des séquences de mots de qualité adaptées aux modèles de deep learning.
-- **Modèle Final pour la Classification** : En exploitant ces données prétraitées, nous pourrons concevoir un modèle de classification plus robuste, capable de mieux gérer les classes rares et d'exploiter pleinement le contexte et la sémantique des commentaires.
+- **Nettoyage avancé des commentaires** : Utilisation de la couche TextVectorization de Keras pour effectuer cette étape automatiquement.
+- **Création du dataset avec TensorFlow** : Utilisation de l’API tf.data.Dataset Les données vectorisées sont encapsulées dans un objet tf.data.Dataset.
+- **LSTM Bidirectionnal** : Remplacer les couches de LSTM unidirectionnals par des bidirectionnals pour etre sur de bien prendre en compte le sens de la phrase.
 
 En résumé, l'approche deep learning apporte une amélioration par rapport au modèle baseline en capturant des informations contextuelles et sémantiques essentielles. Néanmoins, pour atteindre une performance optimale sur toutes les classes, notamment les plus rares, l'intégration d'un pipeline complet de prétraitement et d'optimisation reste indispensable.
