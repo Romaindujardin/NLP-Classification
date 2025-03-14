@@ -13,7 +13,7 @@ Plusieurs approches ont été mises en œuvre pour améliorer la performance de 
   - Un MLP avec embeddings seuls.
   - Un RNN avec LSTM pour une meilleure modélisation des séquences.
   - [Accéder au dossier du Modèle Deep Learning](https://github.com/Romaindujardin/NLP-Classification/tree/main/2.%20Approche%20deep%20learning)
-- **Modèle Final (LSTM Bidirectionnel)** : La version finale intègre une architecture de LSTM bidirectionnel, permettant de capter le contexte dans les deux directions. Ce modèle bénéficie également d’un pipeline optimisé incluant une vectorisation via TextVectorization, la création d’un dataset TensorFlow, et un calcul approfondi des métriques. [Accéder au README du Modèle Final]()
+- **Modèle Final (LSTM Bidirectionnel)** : La version finale intègre une architecture de LSTM bidirectionnel, permettant de capter le contexte dans les deux directions. Ce modèle bénéficie également d’un pipeline optimisé incluant une vectorisation via TextVectorization, la création d’un dataset TensorFlow, et un calcul approfondi des métriques. [Accéder au dossier du Modèle Final](https://github.com/Romaindujardin/NLP-Classification/tree/main/3.%20Modèle%20final%20(lstm%20bidirectional))
   
 ## 3. Résultats Globaux
 
