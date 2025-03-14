@@ -12,7 +12,7 @@ Plusieurs approches ont été mises en œuvre pour améliorer la performance de 
 - **Modèle Deep Learning (Embedding + LSTM)** : Cette approche introduit des embeddings et des réseaux de neurones LSTM pour capturer l’ordre des mots et le contexte. Deux variantes ont été explorées :
   - Un MLP avec embeddings seuls.
   - Un RNN avec LSTM pour une meilleure modélisation des séquences.
-  - [Accéder au README du Modèle Deep Learning]()
+  - [Accéder au dossier du Modèle Deep Learning](https://github.com/Romaindujardin/NLP-Classification/tree/main/2.%20Approche%20deep%20learning)
 - **Modèle Final (LSTM Bidirectionnel)** : La version finale intègre une architecture de LSTM bidirectionnel, permettant de capter le contexte dans les deux directions. Ce modèle bénéficie également d’un pipeline optimisé incluant une vectorisation via TextVectorization, la création d’un dataset TensorFlow, et un calcul approfondi des métriques. [Accéder au README du Modèle Final]()
   
 ## 3. Résultats Globaux
