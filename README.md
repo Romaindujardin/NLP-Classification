@@ -8,7 +8,7 @@ Ce projet s’inscrit dans le cadre du défi [Kaggle Jigsaw Toxic Comment Classi
 
 Plusieurs approches ont été mises en œuvre pour améliorer la performance de la classification :
 
-- **Modèle Baseline (TF-IDF + OneVsRest Logistic Regression)** : La première approche utilise la vectorisation TF-IDF pour transformer les textes en vecteurs numériques, combinée à un classificateur OneVsRest basé sur la régression logistique. [Accéder au dossier du Modèle Baseline]()
+- **Modèle Baseline (TF-IDF + OneVsRest Logistic Regression)** : La première approche utilise la vectorisation TF-IDF pour transformer les textes en vecteurs numériques, combinée à un classificateur OneVsRest basé sur la régression logistique. [Accéder au dossier du Modèle Baseline](1. Modèle de base (TF-IDF))
 - **Modèle Deep Learning (Embedding + LSTM)** : Cette approche introduit des embeddings et des réseaux de neurones LSTM pour capturer l’ordre des mots et le contexte. Deux variantes ont été explorées :
   - Un MLP avec embeddings seuls.
   - Un RNN avec LSTM pour une meilleure modélisation des séquences.
